@@ -11,9 +11,9 @@ import { AlertCircle, Download, Trash2 } from "lucide-react"
 import { useDataContext, type OrderData, type MaterialPriceData } from "@/context/data-context"
 
 // Define the URLs
-const ordersFileUrl = "https://cors-anywhere.herokuapp.com/https://analytics515.blob.core.windows.net/analyticsblob/Complex_Integrations_Tasks_With_RawMaterials_and_Cost.csv";
+const ordersFileUrl = "https://cors-anywhere.herokuapp.com/https://github.com/adarshpandey515/nextSIMS/blob/main/Complex_Integrations_Tasks_With_RawMaterials_and_Cost.csv";
 // const ordersFileUrl = "https://analytics515.blob.core.windows.net/analyticsblob/Complex_Integrations_Tasks_With_RawMaterials_and_Cost.csv"
-const materialsFileUrl = "https://cors-anywhere.herokuapp.com/https://analytics515.blob.core.windows.net/analyticsblob/Historical_RawMaterial_Prices_OneYear%20(1).csv";
+const materialsFileUrl = "https://cors-anywhere.herokuapp.com/https://github.com/adarshpandey515/nextSIMS/blob/main/Historical_RawMaterial_Prices_OneYear.csv";
 
 export function DataUpload() {
   const { ordersData, setOrdersData, materialPricesData, setMaterialPricesData } = useDataContext()
